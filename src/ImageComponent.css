@@ -1,0 +1,77 @@
+/* App.css */
+
+.app-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+  }
+  
+  .image1 {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+  }
+  
+  .centered-image {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    animation:  blink 8s linear infinite;
+  }
+  
+  
+  .centered-image img {
+    width: 150%; /* Adjust the size of the second image as needed */
+    height: 150%;
+    /* background-color: rgba(255, 0, 0, 0.5); */
+  }
+  
+  
+  .centered-text {
+    position: absolute;
+    top: 50%;
+    left: 75%;
+    right: -70%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    color: white; /* Set the text color */
+    /* background-color: rgba(36, 35, 35, 0.7);  */
+    padding: 10px;
+    border-radius: 5px;
+    z-index: 2;
+  }
+  
+
+  /* @keyframes blink {
+    0% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1; 
+    }
+    100% {
+      opacity: 0;
+    }
+  } */
+
+
+  @keyframes blink {
+    0%, 100% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    60%, 80% {
+      opacity: 1;
+    }
+  }
