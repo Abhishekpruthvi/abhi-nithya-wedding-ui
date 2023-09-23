@@ -5,6 +5,8 @@ import './App.css';
 import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import './ImageComponent.css';
+import CountdownBoard from './CountDownBoard'
+import "@fontsource/great-vibes";
 
 function App() {
   const styles = {
@@ -20,9 +22,11 @@ function App() {
     },
 
     cursiveFontStyle: {
-      fontFamily: 'YourCursiveFont, cursive',
+      fontFamily: 'Great Vibes,cursive',
     }
   };
+
+  const targetDate = '2023-12-01T00:00:00.000Z';
 
   return (
     <div className="app-container">
@@ -49,6 +53,9 @@ function App() {
             <Typography variant="h6" fontWeight="bold" color="#000080" bgcolor="lightgrey">01 December 2023</Typography>
           </div>
         </div>
+      </div>
+      <div>
+      <CountdownBoard targetDate={targetDate} />
       </div>
     </div>
   );
