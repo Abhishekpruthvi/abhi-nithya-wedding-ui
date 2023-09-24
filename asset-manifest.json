@@ -1,24 +1,27 @@
 {
   "files": {
-    "main.css": "/abhi-nithya-wedding-ui/static/css/main.5e15d41f.css",
-    "main.js": "/abhi-nithya-wedding-ui/static/js/main.48ec1f98.js",
+    "main.css": "/abhi-nithya-wedding-ui/static/css/main.f6aa2213.css",
+    "main.js": "/abhi-nithya-wedding-ui/static/js/main.3b34bea2.js",
     "static/js/787.f7e2e9d2.chunk.js": "/abhi-nithya-wedding-ui/static/js/787.f7e2e9d2.chunk.js",
-    "static/media/ANBg.jpeg": "/abhi-nithya-wedding-ui/static/media/ANBg.d71d6c162a87020297ef.jpeg",
+    "static/media/ANbg.jpeg": "/abhi-nithya-wedding-ui/static/media/ANbg.d42443bdec9b01b24555.jpeg",
+    "static/media/AbhiSingle.JPG": "/abhi-nithya-wedding-ui/static/media/AbhiSingle.4d2a2e6b058ad5cac34b.JPG",
+    "static/media/NithyaSingle.JPG": "/abhi-nithya-wedding-ui/static/media/NithyaSingle.205bf215384233796835.JPG",
     "static/media/hearttemplate.png": "/abhi-nithya-wedding-ui/static/media/hearttemplate.1008dfd2526fe00ea750.png",
     "static/media/great-vibes-latin-400-normal.woff2": "/abhi-nithya-wedding-ui/static/media/great-vibes-latin-400-normal.be0bf4706b438d27744a.woff2",
     "static/media/great-vibes-latin-400-normal.woff": "/abhi-nithya-wedding-ui/static/media/great-vibes-latin-400-normal.57d7006f69c6a02f9054.woff",
     "static/media/great-vibes-latin-ext-400-normal.woff2": "/abhi-nithya-wedding-ui/static/media/great-vibes-latin-ext-400-normal.afd1d5ce8e6ecd213f48.woff2",
     "static/media/great-vibes-latin-ext-400-normal.woff": "/abhi-nithya-wedding-ui/static/media/great-vibes-latin-ext-400-normal.57e464dd9bdc022fa4cc.woff",
+    "static/media/laveloHeart.png": "/abhi-nithya-wedding-ui/static/media/laveloHeart.332f222c2332f17d585a.png",
     "static/media/great-vibes-vietnamese-400-normal.woff2": "/abhi-nithya-wedding-ui/static/media/great-vibes-vietnamese-400-normal.f9dc7aec50196d6a92d0.woff2",
     "static/media/great-vibes-vietnamese-400-normal.woff": "/abhi-nithya-wedding-ui/static/media/great-vibes-vietnamese-400-normal.f3e35abe465a0f6063b4.woff",
     "static/media/logo.svg": "/abhi-nithya-wedding-ui/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/abhi-nithya-wedding-ui/index.html",
-    "main.5e15d41f.css.map": "/abhi-nithya-wedding-ui/static/css/main.5e15d41f.css.map",
-    "main.48ec1f98.js.map": "/abhi-nithya-wedding-ui/static/js/main.48ec1f98.js.map",
+    "main.f6aa2213.css.map": "/abhi-nithya-wedding-ui/static/css/main.f6aa2213.css.map",
+    "main.3b34bea2.js.map": "/abhi-nithya-wedding-ui/static/js/main.3b34bea2.js.map",
     "787.f7e2e9d2.chunk.js.map": "/abhi-nithya-wedding-ui/static/js/787.f7e2e9d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5e15d41f.css",
-    "static/js/main.48ec1f98.js"
+    "static/css/main.f6aa2213.css",
+    "static/js/main.3b34bea2.js"
   ]
 }
