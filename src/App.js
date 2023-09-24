@@ -9,6 +9,7 @@ import CountdownBoard from './CountDownBoard'
 import "@fontsource/great-vibes";
 import HappyCouple from './HappyCouple'
 import WhenAndWhere from './WhenAndWhere'
+import OurStory from './OurStory'
 
 function App() {
   const styles = {
@@ -17,6 +18,8 @@ function App() {
       alignItems: 'center',
       // backgroundColor: '#FF0B48'
       backgroundColor: '#5e9a8d'
+      // backgroundColor: '#967bb6'
+      
     },
     title: {
       flexGrow: 1,
@@ -51,9 +54,9 @@ function App() {
         <div className="centered-image">
           <img src={heartTemplate} alt="Your Image" />
           <div className="centered-text">
-            <Typography variant="h6" fontWeight="bold"  bgcolor="#5e9a8d">WE ARE GETTING MARRIED</Typography>
-            <Typography variant="h4" fontWeight="bold" style={styles.cursiveFontStyle} bgcolor="#5e9a8d">Save Our Date</Typography>
-            <Typography variant="h6" fontWeight="bold" bgcolor="#5e9a8d">01 December 2023</Typography>
+            <Typography variant="h6" >WE ARE GETTING MARRIED</Typography>
+            <Typography variant="h4"  style={styles.cursiveFontStyle}>Save Our Date</Typography>
+            <Typography variant="h6" >01 December 2023</Typography>
           </div>
         </div>
       </div>
@@ -62,6 +65,7 @@ function App() {
       </div>
       <HappyCouple/>
       <WhenAndWhere/>
+      <OurStory />
     </div>
   );
 }
