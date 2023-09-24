@@ -1,0 +1,43 @@
+.couple-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 0px;
+  }
+  
+  .profile-container {
+    display: flex;
+    align-items: left;
+  }
+  
+  .profile {
+    text-align: center;
+    margin: 0 12px;
+  }
+  
+  .circle-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    /* animation: rotate 4s linear ease-in; */
+  }
+
+  .heart-container {
+    display: flex;
+    align-items: center;
+    margin: -50px 0px 200px 0px; /*top, right, bottom , left*/
+  }
+  
+  .heart {
+    width: 60px;
+    height: 60px;
+  }
+  
+  .text-container {
+    margin-top: 20px;
+  }
+  

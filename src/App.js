@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import ANBg from './images/ANBg.jpeg'
+import ANBg from './images/ANbg.jpeg'
 import heartTemplate from './images/hearttemplate.png'
 import './App.css';
 import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
@@ -7,13 +7,16 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import './ImageComponent.css';
 import CountdownBoard from './CountDownBoard'
 import "@fontsource/great-vibes";
+import HappyCouple from './HappyCouple'
+import WhenAndWhere from './WhenAndWhere'
 
 function App() {
   const styles = {
     appBar: {
       display: 'flex',
       alignItems: 'center',
-      backgroundColor: '#FF0B48'
+      // backgroundColor: '#FF0B48'
+      backgroundColor: '#5e9a8d'
     },
     title: {
       flexGrow: 1,
@@ -26,7 +29,7 @@ function App() {
     }
   };
 
-  const targetDate = '2023-12-01T00:00:00.000Z';
+  const targetDate = '2023-12-01T10:00:00+05:30';
 
   return (
     <div className="app-container">
@@ -48,15 +51,17 @@ function App() {
         <div className="centered-image">
           <img src={heartTemplate} alt="Your Image" />
           <div className="centered-text">
-            <Typography variant="h6" fontWeight="bold" color="#000080" bgcolor="lightgrey">WE ARE GETTING MARRIED</Typography>
-            <Typography variant="h4" fontWeight="bold" style={styles.cursiveFontStyle} color="#000080" bgcolor="lightgrey">Save Our Date</Typography>
-            <Typography variant="h6" fontWeight="bold" color="#000080" bgcolor="lightgrey">01 December 2023</Typography>
+            <Typography variant="h6" fontWeight="bold"  bgcolor="#5e9a8d">WE ARE GETTING MARRIED</Typography>
+            <Typography variant="h4" fontWeight="bold" style={styles.cursiveFontStyle} bgcolor="#5e9a8d">Save Our Date</Typography>
+            <Typography variant="h6" fontWeight="bold" bgcolor="#5e9a8d">01 December 2023</Typography>
           </div>
         </div>
       </div>
       <div>
       <CountdownBoard targetDate={targetDate} />
       </div>
+      <HappyCouple/>
+      <WhenAndWhere/>
     </div>
   );
 }
