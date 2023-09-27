@@ -27,11 +27,39 @@ export default function OurStory() {
             </div>
 
             <div style={{ marginTop: "30px" }}>
-                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Meet</Typography>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Chat</Typography>
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px">
-                    Sunday, 19th March 2023, 12:00 PM <br />
+                    Tuesday, 7th March 2023 <br />
+                </Typography>
+            </div>
+
+            <div style={{ marginTop: "30px" }}>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Call</Typography>
+            </div>
+            <div className="text-styling">
+                <Typography lineHeight="30px">
+                    Thursday, 9th March 2023 <br />
+                </Typography>
+            </div>
+
+            <div style={{ marginTop: "30px" }}>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Date</Typography>
+            </div>
+            <div className="text-styling">
+                <Typography lineHeight="30px">
+                    Tuesday, 7th March 2023 <br />
+                    Mysore <br />
+                </Typography>
+            </div>
+
+            <div style={{ marginTop: "30px" }}>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Rose</Typography>
+            </div>
+            <div className="text-styling">
+                <Typography lineHeight="30px">
+                    Saturday, 8th April 2023 <br />
                     Mysore <br />
                 </Typography>
             </div>

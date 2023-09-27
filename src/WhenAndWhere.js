@@ -53,7 +53,7 @@ export default function WhenAndWhere() {
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px">
-                    Sunday, 3rd October 2023, 10:00 AM to 02:00 PM <br />
+                    Sunday, 3rd December 2023, 10:00 AM to 02:00 PM <br />
                     Nandagokula Convention Center, Hassan <br />
                     <a href={nandagokula} target="_blank" rel="noopener noreferrer">
                         <FaLocationArrow color="darkblue" style={{ marginRight: "5px" }} />
