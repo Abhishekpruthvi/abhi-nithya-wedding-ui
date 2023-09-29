@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/abhi-nithya-wedding-ui/static/css/main.ccd8a21b.css",
+    "main.css": "/abhi-nithya-wedding-ui/static/css/main.447c2cd1.css",
     "main.js": "/abhi-nithya-wedding-ui/static/js/main.60405ecd.js",
     "static/js/787.f7e2e9d2.chunk.js": "/abhi-nithya-wedding-ui/static/js/787.f7e2e9d2.chunk.js",
     "static/media/teaser.mp4": "/abhi-nithya-wedding-ui/static/media/teaser.2652d6ee610bfa554bfc.mp4",
@@ -17,12 +17,12 @@
     "static/media/great-vibes-vietnamese-400-normal.woff": "/abhi-nithya-wedding-ui/static/media/great-vibes-vietnamese-400-normal.f3e35abe465a0f6063b4.woff",
     "static/media/logo.svg": "/abhi-nithya-wedding-ui/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/abhi-nithya-wedding-ui/index.html",
-    "main.ccd8a21b.css.map": "/abhi-nithya-wedding-ui/static/css/main.ccd8a21b.css.map",
+    "main.447c2cd1.css.map": "/abhi-nithya-wedding-ui/static/css/main.447c2cd1.css.map",
     "main.60405ecd.js.map": "/abhi-nithya-wedding-ui/static/js/main.60405ecd.js.map",
     "787.f7e2e9d2.chunk.js.map": "/abhi-nithya-wedding-ui/static/js/787.f7e2e9d2.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ccd8a21b.css",
+    "static/css/main.447c2cd1.css",
     "static/js/main.60405ecd.js"
   ]
 }
