@@ -18,7 +18,7 @@ export default function HappyCouple() {
     return (
         <div>
             <div>
-                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#5e9a8d"> Happy couple</Typography>
+                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Happy couple</Typography>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',

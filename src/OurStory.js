@@ -18,7 +18,7 @@ export default function OurStory() {
                     margin: '0 auto',
                     marginBottom: "20px"
                 }} />
-                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#5e9a8d"> Our Story</Typography>
+                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Our Story</Typography>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
@@ -27,7 +27,7 @@ export default function OurStory() {
             </div>
 
             <div style={{ marginTop: "30px" }}>
-                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Chat</Typography>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Chat</Typography>
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px">
@@ -36,7 +36,7 @@ export default function OurStory() {
             </div>
 
             <div style={{ marginTop: "30px" }}>
-                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Call</Typography>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Call</Typography>
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px">
@@ -45,7 +45,7 @@ export default function OurStory() {
             </div>
 
             <div style={{ marginTop: "30px" }}>
-                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Date</Typography>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Date</Typography>
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px">
@@ -55,7 +55,7 @@ export default function OurStory() {
             </div>
 
             <div style={{ marginTop: "30px" }}>
-                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">First Rose</Typography>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Rose</Typography>
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px">

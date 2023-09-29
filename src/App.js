@@ -18,8 +18,9 @@ function App() {
       display: 'flex',
       alignItems: 'center',
       // backgroundColor: '#FF0B48'
-      backgroundColor: '#5e9a8d'
       // backgroundColor: '#967bb6'
+      // backgroundColor: '#5e9a8d'
+      backgroundColor:'#1e7b67'
       
     },
     title: {

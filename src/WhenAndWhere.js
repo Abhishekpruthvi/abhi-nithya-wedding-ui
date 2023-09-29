@@ -25,7 +25,7 @@ export default function WhenAndWhere() {
                     margin: '0 auto',
                     marginBottom:"20px"
                 }} />
-                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#5e9a8d"> When And Where</Typography>
+                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> When And Where</Typography>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
@@ -33,7 +33,7 @@ export default function WhenAndWhere() {
                 }} />
             </div>
             <div style={{ marginTop: "30px" }}>
-                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">Wedding Ceremony</Typography>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">Wedding Ceremony</Typography>
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px">
@@ -41,7 +41,7 @@ export default function WhenAndWhere() {
                     IJ Convention hall Mysore <br />
                     <a href={ijConventionCenter} target="_blank" rel="noopener noreferrer" style={{alignItem:"center"}}>
                         <FaLocationArrow style={{ marginRight: "5px" }} color="darkblue" />
-                        <Button variant="contained"  style={{backgroundColor:"#5e9a8d"}} >
+                        <Button variant="contained"  style={{backgroundColor:"#1e7b67"}} >
                             Open in Google Maps
                             </Button>
                     </a>
@@ -49,7 +49,7 @@ export default function WhenAndWhere() {
             </div>
 
             <div style={{ marginTop: "30px" }}>
-                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#5e9a8d">Reception</Typography>
+                <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">Reception</Typography>
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px">
@@ -57,7 +57,7 @@ export default function WhenAndWhere() {
                     Nandagokula Convention Center, Hassan <br />
                     <a href={nandagokula} target="_blank" rel="noopener noreferrer">
                         <FaLocationArrow color="darkblue" style={{ marginRight: "5px" }} />
-                        <Button variant="contained" style={{backgroundColor:"#5e9a8d"}} >
+                        <Button variant="contained" style={{backgroundColor:"#1e7b67"}} >
                             Open in Google Maps
                             </Button>
                     </a>

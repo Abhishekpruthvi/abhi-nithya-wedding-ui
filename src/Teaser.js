@@ -28,7 +28,7 @@ export default function Teaser() {
                     margin: '0 auto',
                     marginBottom: "20px"
                 }} />
-                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#5e9a8d"> Teaser </Typography>
+                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Teaser </Typography>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
