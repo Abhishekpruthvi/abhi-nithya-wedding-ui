@@ -10,7 +10,8 @@ import "@fontsource/great-vibes";
 import HappyCouple from './HappyCouple'
 import WhenAndWhere from './WhenAndWhere'
 import OurStory from './OurStory'
-import Teaser from './Teaser'
+import EngagementTeaser from './EngagementTeaser'
+import PreWeddingStudioTeaser from './PreweddingStudioTeaser';
 
 function App() {
   const styles = {
@@ -67,8 +68,9 @@ function App() {
       </div>
       <HappyCouple/>
       <WhenAndWhere/>
+      <EngagementTeaser />
+      <PreWeddingStudioTeaser />
       <OurStory />
-      <Teaser />
     </div>
   );
 }
