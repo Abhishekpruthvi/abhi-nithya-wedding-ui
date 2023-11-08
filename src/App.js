@@ -12,6 +12,10 @@ import WhenAndWhere from './WhenAndWhere'
 import OurStory from './OurStory'
 import EngagementTeaser from './EngagementTeaser'
 import PreWeddingStudioTeaser from './PreweddingStudioTeaser';
+import Welcome from './Welcome';
+import BrideSquad from './BrideSquad'
+import GroomSquad from './GroomSquad'
+import Thanks from './Thanks'
 
 function App() {
   const styles = {
@@ -21,8 +25,8 @@ function App() {
       // backgroundColor: '#FF0B48'
       // backgroundColor: '#967bb6'
       // backgroundColor: '#5e9a8d'
-      backgroundColor:'#1e7b67'
-      
+      backgroundColor: '#1e7b67'
+
     },
     title: {
       flexGrow: 1,
@@ -58,19 +62,23 @@ function App() {
           <img src={heartTemplate} alt="Your Image" />
           <div className="centered-text">
             <Typography variant="h6" >WE ARE GETTING MARRIED</Typography>
-            <Typography variant="h4"  style={styles.cursiveFontStyle}>Save Our Date</Typography>
+            <Typography variant="h4" style={styles.cursiveFontStyle}>Save Our Date</Typography>
             <Typography variant="h6" >01 December 2023</Typography>
           </div>
         </div>
       </div>
+      <Welcome />
       <div>
-      <CountdownBoard targetDate={targetDate} />
+        <CountdownBoard targetDate={targetDate} />
       </div>
-      <HappyCouple/>
-      <WhenAndWhere/>
+      <HappyCouple />
       <EngagementTeaser />
+      <WhenAndWhere />
       <PreWeddingStudioTeaser />
       <OurStory />
+      <BrideSquad />
+      <GroomSquad />
+      <Thanks />
     </div>
   );
 }

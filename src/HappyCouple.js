@@ -18,6 +18,11 @@ export default function HappyCouple() {
     return (
         <div>
             <div>
+                <img src={underlineHeart} style={{
+                    display: 'block',
+                    margin: '0 auto',
+                    marginBottom: "20px"
+                }} />
                 <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Happy couple</Typography>
                 <img src={underlineHeart} style={{
                     display: 'block',
@@ -29,9 +34,11 @@ export default function HappyCouple() {
                 <div className="profile-container">
                     <div className="profile">
                         <img className="circle-image" src={AbhiSingle} alt="Groom" />
-                        <Typography>Hi I am Abhishek Pruthvi. I'm a Software Engineer working in a product based 
-                            company as a FullStack Developer!.
-                            Infact the website you are looking at is developed by me!
+                        <Typography>
+                            Hey I'm Abhishek Pruthvi, a witty and a smart software engineer!<br />
+                            Road tripping in my enfield makes me happy  and friends along makes it adventurous!
+                            <br/>
+                            PS : The website you are looking at is developed by me 🤭
                         </Typography>
                     </div>
                     <div className="heart-container">
@@ -39,11 +46,50 @@ export default function HappyCouple() {
                     </div>
                     <div className="profile">
                         <img className="circle-image" src={NithyaSingle} alt="Bride" />
-                        <Typography >Hi I am Nithya. I have recenlty completed BAMS, looking forward to become a very good Doctor.
-                        And especially very good Wife!</Typography>
+                        <Typography >
+                            Hey I'm Nithya, a doctor by profession and a dancer by passion! Kinda introverted simple and fun loving girl
+                            Who’s always on toe’s to do things that intrests me
+                            As sweettooth person I love to bake yum treats to make everyone’s day more sweeter also i love love love to dress up 🤭
+                        </Typography>
                     </div>
                 </div>
             </div>
+
+            <div>
+                <img src={underlineHeart} style={{
+                    display: 'block',
+                    margin: '0 auto',
+                    marginBottom: "20px"
+                }} />
+                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> What made us fall for each other!</Typography>
+                <img src={underlineHeart} style={{
+                    display: 'block',
+                    margin: '0 auto',
+                    marginTop: "-40px"
+                }} />
+
+                <div className="text-styling">
+                    <Typography lineHeight="30px">
+                        <h2>Nithya</h2>
+                        As we started our chat I felt a spark instantly and was really excited to meet him, his sense of humour and the fact that he’s very open about each and everything blew me up and after a few days of chats n calls we finally met I spontaneously felt he was the one with whom I want to spend the rest of my life , he was what I was looking for
+                        And each and everyday as we got closer, I realised he is an updated version of my dad! And what more could I ask for rite?
+                    </Typography>
+                </div>
+
+                <img src={underlineHeart} style={{
+                    display: 'block',
+                    margin: '0 auto',
+                    marginTop: "-40px"
+                }} />
+                <div className="text-styling">
+                    <Typography lineHeight="30px">
+                        <h2>Abhi</h2>
+                        I had to wait for 1 and half hour in a sunny day to meet her, I think it's sunstroke made me fall,
+                        Everybody misunderstood 🥲
+                    </Typography>
+                </div>
+            </div>
+
         </div>
     )
 }

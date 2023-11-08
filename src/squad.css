@@ -14,7 +14,7 @@
   
   .profile {
     text-align: center;
-    margin: 0 12px;
+    margin: 0 20 0 20;
   }
   
   .circle-image {
@@ -24,17 +24,6 @@
     object-fit: cover;
     cursor: pointer;
     /* animation: rotate 4s linear ease-in; */
-  }
-
-  .heart-container {
-    display: flex;
-    align-items: center;
-    margin: -150px 0px 200px 0px; /*top, right, bottom , left*/
-  }
-  
-  .heart {
-    width: 60px;
-    height: 60px;
   }
   
   .text-container {
