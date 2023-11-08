@@ -1,3 +1,18 @@
+:root {
+  --background-color-light: #ffffff;
+  --text-color-light: #000000;
+  --background-color-dark: #000000;
+  --text-color-dark: #ffffff;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    --background-color: var(--background-color-dark);
+    --text-color: var(--text-color-dark);
+  }
+}
+
+
 .App {
   text-align: center;
 }
@@ -36,3 +51,4 @@
     transform: rotate(360deg);
   }
 }
+

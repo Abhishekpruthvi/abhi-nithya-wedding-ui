@@ -38,7 +38,10 @@ function App() {
   const targetDate = '2023-12-01T10:00:00+05:30';
 
   return (
-    <div className="app-container">
+    <div style={{
+      backgroundColor: 'var(--background-color-dark)',
+      color: 'var(--text-color-dark)',
+    }}>
       <AppBar position="static" style={styles.appBar} >
         <Toolbar>
           <Typography variant="h6" component="div" fontSize="25px" fontFamily="Arial, sans-serif" fontStyle="italic"
