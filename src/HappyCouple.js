@@ -84,8 +84,7 @@ export default function HappyCouple() {
                 <div className="text-styling">
                     <Typography lineHeight="30px">
                         <h2>Abhi</h2>
-                        I had to wait for 1 and half hour in a sunny day to meet her, I think it's sunstroke made me fall,
-                        Everybody misunderstood 🥲
+                        When we started talking I tried to impress her in several ways😂 but little did I know that she already had fallen for me ! She’s a simple , innocent girl with a child’s heart and I believed she would be her best as my better half , a few days later i was awaiting her response and it was final yes from her side for the win!
                     </Typography>
                 </div>
             </div>

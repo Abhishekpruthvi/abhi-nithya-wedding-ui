@@ -12,6 +12,7 @@ import WhenAndWhere from './WhenAndWhere'
 import OurStory from './OurStory'
 import EngagementTeaser from './EngagementTeaser'
 import PreWeddingStudioTeaser from './PreweddingStudioTeaser';
+import PreweddingTeaser from './PreweddingTeaser';
 import Welcome from './Welcome';
 import BrideSquad from './BrideSquad'
 import GroomSquad from './GroomSquad'
@@ -76,6 +77,7 @@ function App() {
       <WhenAndWhere />
       <PreWeddingStudioTeaser />
       <OurStory />
+      <PreweddingTeaser />
       <BrideSquad />
       <GroomSquad />
       <Thanks />
