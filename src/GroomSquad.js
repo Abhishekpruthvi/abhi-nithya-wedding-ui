@@ -10,6 +10,7 @@ import Shrinidhi from './images/GroomBoys/Shrinidhi.PNG'
 import Sumukh from './images/GroomBoys/Sumukh.PNG'
 import Sumanth from './images/GroomBoys/Sumanth.png'
 import Sam from './images/GroomBoys/Sam.jpeg'
+import Upendra from './images/GroomBoys/Upendra.jpg'
 
 import Amrutha from './images/GroomGirls/Amrutha.PNG'
 import Dhanusha from './images/GroomGirls/Dhanusha.png'
@@ -19,10 +20,15 @@ import Sangeetha from './images/GroomGirls/Sangeetha.PNG'
 import Spoorthi from './images/GroomGirls/Spoorthi.PNG'
 import Supriya from './images/GroomGirls/Supriya.PNG'
 
+import '@fontsource/courgette';
+
 
 const styles = {
     cursiveFontStyle: {
         fontFamily: 'Great Vibes,cursive',
+    },
+    mainFontStyle: {
+        fontFamily: 'Courgette, sans-serif'
     }
 }
 export default function GroomSquad() {
@@ -54,13 +60,13 @@ export default function GroomSquad() {
                 <div className="profile-container">
                     <div className="profile">
                         <img className="circle-image" src={Harshith} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle}>
                             Harshith
                         </Typography>
                     </div>
                     <div className="profile">
                         <img className="circle-image" src={Kushal} alt="Bride" />
-                        <Typography >
+                        <Typography style={styles.mainFontStyle}>
                             Kushal
                         </Typography>
                     </div>
@@ -70,13 +76,13 @@ export default function GroomSquad() {
                 <div className="profile-container">
                     <div className="profile">
                         <img className="circle-image" src={Madhu} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle}>
                             Madhu
                         </Typography>
                     </div>
                     <div className="profile">
                         <img className="circle-image" src={Sam} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle}>
                             Samuel Kiran
                         </Typography>
                     </div>
@@ -88,13 +94,13 @@ export default function GroomSquad() {
                 <div className="profile-container">
                 <div className="profile">
                         <img className="circle-image" src={Shrinidhi} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle}>
                             Shrinidhi
                         </Typography>
                     </div>
                     <div className="profile">
                         <img className="circle-image" src={Sumanth} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle}>
                             Sumanth
                         </Typography>
                     </div>
@@ -105,8 +111,14 @@ export default function GroomSquad() {
                 <div className="profile-container">
                     <div className="profile">
                         <img className="circle-image" src={Sumukh} alt="Bride" />
-                        <Typography >
+                        <Typography style={styles.mainFontStyle}>
                             Sumukh
+                        </Typography>
+                    </div>
+                    <div className="profile">
+                        <img className="circle-image" src={Upendra} alt="Bride" />
+                        <Typography style={styles.mainFontStyle}>
+                            Upendra
                         </Typography>
                     </div>
                 </div>
@@ -125,13 +137,13 @@ export default function GroomSquad() {
                 <div className="profile-container">
                     <div className="profile">
                         <img className="circle-image" src={Amrutha} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle}>
                             Amrutha
                         </Typography>
                     </div>
                     <div className="profile">
                         <img className="circle-image" src={Dhanusha} alt="Bride" />
-                        <Typography >
+                        <Typography style={styles.mainFontStyle}>
                             Dhanusha
                         </Typography>
                     </div>
@@ -141,13 +153,13 @@ export default function GroomSquad() {
                 <div className="profile-container">
                     <div className="profile">
                         <img className="circle-image" src={Ranjitha} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle}>
                             Ranjitha
                         </Typography>
                     </div>
                     <div className="profile">
                         <img className="circle-image" src={Sahithya} alt="Bride" />
-                        <Typography >
+                        <Typography style={styles.mainFontStyle}>
                             Sahithya
                         </Typography>
                     </div>
@@ -158,13 +170,13 @@ export default function GroomSquad() {
                 <div className="profile-container">
                     <div className="profile">
                         <img className="circle-image" src={Sangeetha} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle}>
                             Sangeetha
                         </Typography>
                     </div>
                     <div className="profile">
                         <img className="circle-image" src={Spoorthi} alt="Bride" />
-                        <Typography >
+                        <Typography style={styles.mainFontStyle}>
                             Spoorthi
                         </Typography>
                     </div>
@@ -174,7 +186,7 @@ export default function GroomSquad() {
                 <div className="profile-container">
                     <div className="profile">
                         <img className="circle-image" src={Supriya} alt="Bride Sister" />
-                        <Typography>
+                        <Typography style={styles.mainFontStyle} marginLeft="50px">
                             Supriya
                         </Typography>
                     </div>

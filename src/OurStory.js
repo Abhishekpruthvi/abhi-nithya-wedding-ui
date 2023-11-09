@@ -1,6 +1,7 @@
 import React from 'react';
 import { Typography, Button } from '@mui/material';
 import "@fontsource/great-vibes";
+import '@fontsource/courgette';
 import underlineHeart from './images/underlineHeart.png'
 import './TextStyling.css'
 
@@ -8,6 +9,9 @@ export default function OurStory() {
     const styles = {
         cursiveFontStyle: {
             fontFamily: 'Great Vibes,cursive',
+        },
+        mainFontStyle: {
+            fontFamily: 'Courgette, sans-serif'
         }
     }
     return (
@@ -30,18 +34,19 @@ export default function OurStory() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">How it started</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
-                    <h2>Abhi</h2>
+                <Typography lineHeight="30px" style={styles.mainFontStyle} >
+
                     Like every other family, Both our families were looking for a match for each of us ,
                     for me Abhishek the hunt for my bride started way too early 😂 my family peeps were eagerly
                     searching me a match since 3 years! And for Nithya the search started just 3 months earlier 🤭
+                    <br />
+                    <br />
                     After talks and chats with others , Abhishek’s brother found Nithya’s profile on the matrimony
                     and tried to contact them , but as the search was just begun for Nithya here mother who was following up
                     her matrimony page didn’t see it 😂 and after Arround 2 months when Abhishek’s brother finally found Nithya’s instagram
                     and Facebook , connected with Nithya’s mother and thats how it all started!
-                    <h2>
-                        Nithya
-                    </h2>
+                    <br />
+                    <br />
                     It was 12pm in the noon i was at  work in hospital when my mom shared me
                     Abhishek’s bio data and as i was going through mom called me shared
                     Abhishek’s number and told I would have to talk with him in the evening
@@ -53,9 +58,9 @@ export default function OurStory() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Chat</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Tuesday, 7th March 2023 <br />
-                    I waited for a message from him but there wasn’t any! Finally I gathered the courage n texted him a Hi, which then went on till 3am in the night in our very first chat😂 
+                    I waited for a message from him but there wasn’t any! Finally I gathered the courage n texted him a Hi, which then went on till 3am in the night in our very first chat😂
 
                 </Typography>
             </div>
@@ -64,7 +69,7 @@ export default function OurStory() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Call</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Thursday, 9th March 2023 <br />
                     It was just funny and awkward in the beginning but turned out to be interesting 🤭
                 </Typography>
@@ -74,15 +79,29 @@ export default function OurStory() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Date</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Tuesday, 7th March 2023 <br />
                     Mysore <br />
                     <h2>
                         Nithya
                     </h2>
-                    It was scheduled for a Sunday and i was super anxious so I made sure everything was good for the day so I talked to my friends and sister for the day’s plan and as i had my work for half the day , but my bad Abhishek had already reached Mysore 😂 I quickly asked my friend to drop me home and tada her vehicle gave up and I made abhishek wait for like more than a hour😂 poor boy 
-Then I quickly got another friend to drop n went home dressed up and went to him😂 
-I took my vespa and he in his enfield reached Karanji lake and took a walk in the cool breeze and flowers falling I took it as a sign 🤭 after walks n talks we went to Ivaana resort for lunch and I was literally so happy that I didn’t even notice it was already evening 😂 literally felt still wanted to spend more time together and that’s when it hit me, he was what I was looking for 🤭 
+                    It was scheduled for a Sunday and I was super anxious so 
+                    I made sure everything was good for the day so I talked to my friends 
+                    and sister for the day’s plan and as I had my work for half the day , 
+                    but my bad Abhishek had already reached Mysore 😂
+                    <br />
+                    <br />
+                    I quickly asked my friend to drop me home 
+                    and tada her vehicle gave up and I made abhishek wait for like 
+                    more than a hour😂 poor boy! Then I quickly got another friend to drop 
+                    me home, I dressed up and went to him😂
+                    <br />
+                    <br />
+                    I took my vespa and he in his enfield reached Karanji lake 
+                    and took a walk in the cool breeze, with flowers falling 
+                    <br /> 
+                    <br />
+                    I took it as a sign 🤭 after walks and talks we went to Ivaana resort for lunch and I was literally so happy that I didn’t even notice it was already evening 😂 literally felt still wanted to spend more time together and that’s when it hit me, he was what I was looking for 🤭
                 </Typography>
             </div>
 
@@ -90,22 +109,20 @@ I took my vespa and he in his enfield reached Karanji lake and took a walk in th
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Rose</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style = {styles.mainFontStyle}>
                     Saturday, 8th April 2023 <br />
                     Mysore <br />
 
                     <h2> Nithya </h2>
-                    It was night as we casually chatted and we hadn’t said yes yet😂 Abhishek said he was on a trip with friends to Gopalswamy hills and would pass through Mysore late night 
+                    It was night as we casually chatted and we hadn’t said yes yet😂 Abhishek said he was on a trip with friends to Gopalswamy hills and would pass through Mysore late night
                     And he would tell me a hi if possible 😂 me on the other hand was getting ready to go to Banglore in the morning to pick my sister from airport as she returned from london just to meet Abhishek, before it was a complete yes🤭
-                    <br/>
-                    <br/>
+                    <br />
+                    <br />
                     And I couldn’t sleep through the night as i was kinda excited to meet him and my sister 😂
-                    As we had to start early, I woke up Arround 4 in the morning and was getting ready at 4:30 in the morning when Abhishek called asked me come out 😂 I was so excited but also scared as mom n dad were awake too😂 as I went down stairs and stepped out of the door he came in the car so dropped off roses and chocolates in a second and said bye in a jiffy 😂 
+                    As we had to start early, I woke up Arround 4 in the morning and was getting ready at 4:30 in the morning when Abhishek called asked me come out 😂 I was so excited but also scared as mom n dad were awake too😂 as I went down stairs and stepped out of the door he came in the car so dropped off roses and chocolates in a second and said bye in a jiffy 😂
                     it was like a dream come true for me🤭 and the efforts he put in the late night just to meet me made me so happy and i was on cloud 9 literally 😂
                 </Typography>
             </div>
-
-
         </div>
     )
 }

@@ -5,6 +5,7 @@ import underlineHeart from './images/underlineHeart.png'
 import './TextStyling.css'
 import { Link } from 'react-router-dom';
 import { FaLocationArrow } from 'react-icons/fa';
+import '@fontsource/courgette';
 
 
 export default function WhenAndWhere() {
@@ -15,6 +16,9 @@ export default function WhenAndWhere() {
     const styles = {
         cursiveFontStyle: {
             fontFamily: 'Great Vibes,cursive',
+        },
+        mainFontStyle: {
+            fontFamily: 'Courgette, sans-serif'
         }
     }
 
@@ -37,7 +41,7 @@ export default function WhenAndWhere() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">Sangeeth</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Sunday, 26th November 2023, 6:00 PM to 9:00 PM <br />
                     Genius College Mysore <br />
                     <a href={geniusCollege} target="_blank" rel="noopener noreferrer" style={{alignItem:"center"}}>
@@ -52,7 +56,7 @@ export default function WhenAndWhere() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">Night Reception</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Thursday, 30th November 2023, 7:00 PM to 09:00 PM <br />
                     IJ Convention hall Mysore <br />
                     <a href={ijConventionCenter} target="_blank" rel="noopener noreferrer" style={{alignItem:"center"}}>
@@ -67,7 +71,7 @@ export default function WhenAndWhere() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">Wedding Ceremony</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Friday, 1st December 2023, 9:00 AM to 10:00 AM <br />
                     IJ Convention hall Mysore <br />
                     <a href={ijConventionCenter} target="_blank" rel="noopener noreferrer" style={{alignItem:"center"}}>
@@ -83,7 +87,7 @@ export default function WhenAndWhere() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">Reception</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Sunday, 3rd December 2023, 10:00 AM to 02:00 PM <br />
                     Nandagokula Convention Center, Hassan <br />
                     <a href={nandagokula} target="_blank" rel="noopener noreferrer">

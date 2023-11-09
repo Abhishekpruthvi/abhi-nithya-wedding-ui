@@ -1,11 +1,12 @@
 .text-styling {
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    border: 2px solid #ccc; /* Border color */
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  border: 2px solid #ccc; /* Border color */
   border-radius: 20px; /* Adjust the radius for softer or rounder edges */
   padding: 10px; /* Add padding inside the border */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Soft shadow */
   background-color: #fff; /* Background color */
   text-align: center;
+  font-family: 'Lobster,sans-serif';
 }

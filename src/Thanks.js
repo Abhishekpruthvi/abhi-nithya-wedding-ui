@@ -1,11 +1,15 @@
 import React from 'react';
 import { Typography, Button } from '@mui/material';
 import underlineHeart from './images/underlineHeart.png'
+import '@fontsource/courgette';
 
 
 const styles = {
     cursiveFontStyle: {
         fontFamily: 'Great Vibes,cursive',
+    },
+    mainFontStyle: {
+        fontFamily: 'Courgette, sans-serif'
     }
 }
 
@@ -26,7 +30,7 @@ export default function Thanks() {
                 }} />
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px">
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Thanks for visiting our site! , See you in the event
                 </Typography>
             </div>
