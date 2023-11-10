@@ -80,7 +80,7 @@ export default function OurStory() {
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px" style={styles.mainFontStyle}>
-                    Tuesday, 7th March 2023 <br />
+                    Sunday, 19th March 2023 <br />
                     Mysore <br />
                     <h2>
                         Nithya
