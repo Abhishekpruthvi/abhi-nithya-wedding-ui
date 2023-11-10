@@ -6,6 +6,7 @@ import "@fontsource/great-vibes";
 import laveloHeart from './images/laveloHeart.png'
 import NithyaSingle from './images/NithyaSingle.jpg'
 import AbhiSingle from './images/AbhiSingle.jpg'
+import whatMadeUs1 from './images/Us/whatMadeUs1.jpg'
 import '@fontsource/courgette';
 
 export default function HappyCouple() {
@@ -16,7 +17,16 @@ export default function HappyCouple() {
         },
         mainFontStyle: {
             fontFamily: 'Courgette, sans-serif'
-        }
+        },
+        imageStyle: {
+            display: 'block',
+            margin: '0 auto',
+            marginTop: '-5%',
+            position: 'absolute',
+            width: '100%',
+            objectFit: 'cover',
+            opacity: 0.35, // Adjust the opacity as needed
+          },
     }
 
     return (
@@ -73,6 +83,7 @@ export default function HappyCouple() {
                 }} />
 
                 <div className="text-styling">
+                <img src={whatMadeUs1} alt="Background" style={styles.imageStyle} />
                     <Typography lineHeight="30px" style={styles.mainFontStyle}>
                         <h2>Nithya</h2>
                         As we started our chat I felt a spark instantly and was really excited to meet him, his sense of humour and the fact that he’s very open about each and everything blew me up and after a few days of chats n calls we finally met I spontaneously felt he was the one with whom I want to spend the rest of my life , he was what I was looking for

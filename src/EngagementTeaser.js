@@ -21,7 +21,7 @@ export default function EngagementTeaser() {
 
 
     return (
-        <div style={{ marginTop: "50px" }}>
+        <div style={{ marginTop: "50px", zIndex:"999" }}>
             <div>
             <img src={underlineHeart} style={{
                     display: 'block',

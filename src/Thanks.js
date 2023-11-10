@@ -22,7 +22,7 @@ export default function Thanks() {
                     margin: '0 auto',
                     marginBottom: "20px"
                 }} />
-                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Thanks </Typography>
+                <Typography variant="h2" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Thank You! </Typography>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
@@ -31,7 +31,7 @@ export default function Thanks() {
             </div>
             <div className="text-styling">
                 <Typography lineHeight="30px" style={styles.mainFontStyle}>
-                    Thanks for visiting our site! , See you in the event
+                    Thanks for visiting our site! , See you at our wedding
                 </Typography>
             </div>
         </div>

@@ -1,5 +1,6 @@
 import logo from './logo.svg';
-import ANBg from './images/ANbg.jpeg'
+// import ANBg from './images/ANbg.jpeg'
+import ANBg from './images/ANMagnum.jpg'
 import heartTemplate from './images/hearttemplate.png'
 import './App.css';
 import { AppBar, Toolbar, Typography, IconButton } from '@mui/material';
@@ -17,6 +18,8 @@ import Welcome from './Welcome';
 import BrideSquad from './BrideSquad'
 import GroomSquad from './GroomSquad'
 import Thanks from './Thanks'
+import MeetOurFamily from './MeetOurFamily'
+import PreWeddingStudioFull from './PreWeddingStudioFull'
 
 function App() {
   const styles = {
@@ -74,10 +77,12 @@ function App() {
       </div>
       <HappyCouple />
       <EngagementTeaser />
-      <WhenAndWhere />
+      <MeetOurFamily />
       <PreWeddingStudioTeaser />
-      <OurStory />
+      <WhenAndWhere />
       <PreweddingTeaser />
+      <OurStory />
+      <PreWeddingStudioFull />
       <BrideSquad />
       <GroomSquad />
       <Thanks />

@@ -4,6 +4,7 @@ import "@fontsource/great-vibes";
 import '@fontsource/courgette';
 import underlineHeart from './images/underlineHeart.png'
 import './TextStyling.css'
+import HowItStarted from './images/Us/HowItStarted.jpg'
 
 export default function OurStory() {
     const styles = {
@@ -12,7 +13,16 @@ export default function OurStory() {
         },
         mainFontStyle: {
             fontFamily: 'Courgette, sans-serif'
-        }
+        },
+        imageStyle: {
+            display: 'block',
+            margin: '0 auto',
+            marginTop: '10px',
+            position: 'absolute',
+            width: '100%',
+            objectFit: 'cover',
+            opacity: 0.3, // Adjust the opacity as needed
+          },
     }
     return (
         <div style={{ marginTop: "50px" }}>
@@ -34,6 +44,7 @@ export default function OurStory() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">How it started</Typography>
             </div>
             <div className="text-styling">
+                <img src={HowItStarted} style = {styles.imageStyle} />
                 <Typography lineHeight="30px" style={styles.mainFontStyle} >
 
                     Like every other family, Both our families were looking for a match for each of us ,
