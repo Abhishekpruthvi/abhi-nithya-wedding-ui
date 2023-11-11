@@ -62,7 +62,7 @@ export default function HappyCouple() {
                         <img className="circle-image" src={NithyaSingle} alt="Bride" />
                         <Typography style={styles.mainFontStyle}>
                             Hey I'm Nithya, a doctor by profession and a dancer by passion! Kinda introverted simple and fun loving girl
-                            Who’s always on toe’s to do things that inetrests me
+                            Who’s always on toe’s to do things that interests me
                             As sweettooth person I love to bake yum treats to make everyone’s day more sweeter also i love love love to dress up 🤭
                         </Typography>
                     </div>

@@ -5,6 +5,8 @@ import '@fontsource/courgette';
 import underlineHeart from './images/underlineHeart.png'
 import './TextStyling.css'
 import HowItStarted from './images/Us/HowItStarted.jpg'
+import FCFD from './images/Us/FCFD.jpg'
+import FirstDate from './images/Us/FirstDate.jpg'
 
 export default function OurStory() {
     const styles = {
@@ -22,7 +24,7 @@ export default function OurStory() {
             width: '100%',
             objectFit: 'cover',
             opacity: 0.3, // Adjust the opacity as needed
-          },
+        },
     }
     return (
         <div style={{ marginTop: "50px" }}>
@@ -40,11 +42,12 @@ export default function OurStory() {
                 }} />
             </div>
 
+            <img src={HowItStarted} style={styles.imageStyle} />
+
             <div style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">How it started</Typography>
             </div>
             <div className="text-styling">
-                <img src={HowItStarted} style = {styles.imageStyle} />
                 <Typography lineHeight="30px" style={styles.mainFontStyle} >
 
                     Like every other family, Both our families were looking for a match for each of us ,
@@ -65,10 +68,13 @@ export default function OurStory() {
                     </Typography>
             </div>
 
+            <img src={FCFD} style={styles.imageStyle} />
             <div style={{ marginTop: "30px" }}>
+
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Chat</Typography>
             </div>
             <div className="text-styling">
+
                 <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Tuesday, 7th March 2023 <br />
                     I waited for a message from him but there wasn’t any! Finally I gathered the courage n texted him a Hi, which then went on till 3am in the night in our very first chat😂
@@ -96,21 +102,21 @@ export default function OurStory() {
                     <h2>
                         Nithya
                     </h2>
-                    It was scheduled for a Sunday and I was super anxious so 
-                    I made sure everything was good for the day so I talked to my friends 
-                    and sister for the day’s plan and as I had my work for half the day , 
+                    It was scheduled for a Sunday and I was super anxious so
+                    I made sure everything was good for the day so I talked to my friends
+                    and sister for the day’s plan and as I had my work for half the day ,
                     but my bad Abhishek had already reached Mysore 😂
                     <br />
                     <br />
-                    I quickly asked my friend to drop me home 
-                    and tada her vehicle gave up and I made abhishek wait for like 
-                    more than a hour😂 poor boy! Then I quickly got another friend to drop 
+                    I quickly asked my friend to drop me home
+                    and tada her vehicle gave up and I made abhishek wait for like
+                    more than a hour😂 poor boy! Then I quickly got another friend to drop
                     me home, I dressed up and went to him😂
                     <br />
                     <br />
-                    I took my vespa and he in his enfield reached Karanji lake 
-                    and took a walk in the cool breeze, with flowers falling 
-                    <br /> 
+                    I took my vespa and he in his enfield reached Karanji lake
+                    and took a walk in the cool breeze, with flowers falling
+                    <br />
                     <br />
                     I took it as a sign 🤭 after walks and talks we went to Ivaana resort for lunch and I was literally so happy that I didn’t even notice it was already evening 😂 literally felt still wanted to spend more time together and that’s when it hit me, he was what I was looking for 🤭
                 </Typography>
@@ -120,7 +126,7 @@ export default function OurStory() {
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Rose</Typography>
             </div>
             <div className="text-styling">
-                <Typography lineHeight="30px" style = {styles.mainFontStyle}>
+                <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Saturday, 8th April 2023 <br />
                     Mysore <br />
 
