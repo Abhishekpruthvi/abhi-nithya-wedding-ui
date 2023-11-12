@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Button } from '@mui/material';
+import { Typography, Button, Grid } from '@mui/material';
 import underlineHeart from './images/underlineHeart.png'
 import './squad.css'
 import AbhiSingle from './images/AbhiSingle.JPG'
@@ -33,8 +33,8 @@ const styles = {
 }
 export default function GroomSquad() {
     return (
-        <div>
-            <div>
+        <Grid container justifyContent="center">
+            <Grid item xs={12}>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
@@ -46,152 +46,152 @@ export default function GroomSquad() {
                     margin: '0 auto',
                     marginTop: "-40px"
                 }} />
-            </div>
+            </Grid>
 
-            <div style={{ marginTop: "50px" }}>
+            <Grid item xs={12} style={{ marginTop: "50px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Boys Squad </Typography>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
                     marginTop: "-40px"
                 }} />
-            </div>
-            <div className="couple-container">
-                <div className="profile-container">
-                    <div className="profile">
+            </Grid>
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
                         <img className="circle-image" src={Harshith} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
                             Harshith
                         </Typography>
-                    </div>
-                    <div className="profile">
+                    </Grid>
+                    <Grid className="profile">
                         <img className="circle-image" src={Kushal} alt="Bride" />
                         <Typography style={styles.mainFontStyle}>
                             Kushal
                         </Typography>
-                    </div>
-                </div>
-            </div>
-            <div className="couple-container">
-                <div className="profile-container">
-                    <div className="profile">
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
                         <img className="circle-image" src={Madhu} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
                             Madhu
                         </Typography>
-                    </div>
-                    <div className="profile">
+                    </Grid>
+                    <Grid className="profile">
                         <img className="circle-image" src={Sam} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
                             Samuel Kiran
                         </Typography>
-                    </div>
-        
-                </div>
-            </div>
+                    </Grid>
 
-            <div className="couple-container">
-                <div className="profile-container">
-                <div className="profile">
+                </Grid>
+            </Grid>
+
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
                         <img className="circle-image" src={Shrinidhi} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
                             Shrinidhi
                         </Typography>
-                    </div>
-                    <div className="profile">
+                    </Grid>
+                    <Grid className="profile">
                         <img className="circle-image" src={Sumanth} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
                             Sumanth
                         </Typography>
-                    </div>
-                </div>
-            </div>
+                    </Grid>
+                </Grid>
+            </Grid>
 
-            <div className="couple-container">
-                <div className="profile-container">
-                    <div className="profile">
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
                         <img className="circle-image" src={Sumukh} alt="Bride" />
                         <Typography style={styles.mainFontStyle}>
                             Sumukh
                         </Typography>
-                    </div>
-                    <div className="profile">
+                    </Grid>
+                    <Grid className="profile">
                         <img className="circle-image" src={Upendra} alt="Bride" />
                         <Typography style={styles.mainFontStyle}>
                             Upendra
                         </Typography>
-                    </div>
-                </div>
-            </div>
+                    </Grid>
+                </Grid>
+            </Grid>
 
 
-            <div style={{ marginTop: "50px" }}>
+            <Grid item xs={12} style={{ marginTop: "50px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Girls Squad </Typography>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
                     marginTop: "-40px"
                 }} />
-            </div>
-            <div className="couple-container">
-                <div className="profile-container">
-                    <div className="profile">
+            </Grid>
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
                         <img className="circle-image" src={Amrutha} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
                             Amrutha
                         </Typography>
-                    </div>
-                    <div className="profile">
+                    </Grid>
+                    <Grid className="profile">
                         <img className="circle-image" src={Dhanusha} alt="Bride" />
                         <Typography style={styles.mainFontStyle}>
                             Dhanusha
                         </Typography>
-                    </div>
-                </div>
-            </div>
-            <div className="couple-container">
-                <div className="profile-container">
-                    <div className="profile">
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
                         <img className="circle-image" src={Ranjitha} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
                             Ranjitha
                         </Typography>
-                    </div>
-                    <div className="profile">
+                    </Grid>
+                    <Grid className="profile">
                         <img className="circle-image" src={Sahithya} alt="Bride" />
                         <Typography style={styles.mainFontStyle}>
                             Sahithya
                         </Typography>
-                    </div>
-                </div>
-            </div>
+                    </Grid>
+                </Grid>
+            </Grid>
 
-            <div className="couple-container">
-                <div className="profile-container">
-                    <div className="profile">
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
                         <img className="circle-image" src={Sangeetha} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
                             Sangeetha
                         </Typography>
-                    </div>
-                    <div className="profile">
+                    </Grid>
+                    <Grid className="profile">
                         <img className="circle-image" src={Spoorthi} alt="Bride" />
                         <Typography style={styles.mainFontStyle}>
                             Spoorthi
                         </Typography>
-                    </div>
-                </div>
-            </div>
-            <div className="couple-container">
-                <div className="profile-container">
-                    <div className="profile">
+                    </Grid>
+                </Grid>
+            </Grid>
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
                         <img className="circle-image" src={Supriya} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle} marginLeft="50px">
                             Supriya
                         </Typography>
-                    </div>
-                </div>
-            </div>
-        </div>
+                    </Grid>
+                </Grid>
+            </Grid>
+        </Grid>
     )
 }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Button } from '@mui/material';
+import { Typography, Grid } from '@mui/material';
 import "@fontsource/great-vibes";
 import underlineHeart from './images/underlineHeart.png'
 import './TextStyling.css'
@@ -29,8 +29,8 @@ export default function MeetOurFamily() {
         }
     }
     return (
-        <div style={{ marginTop: "50px" }}>
-            <div>
+        <Grid container justifyContent="center" style={{ marginTop: "50px" }}>
+            <Grid item xs={12}>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
@@ -42,23 +42,23 @@ export default function MeetOurFamily() {
                     margin: '0 auto',
                     marginTop: "-40px"
                 }} />
-            </div>
-            <div style={{ marginTop: "30px" }}>
+            </Grid>
+            <Grid item xs={12} style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">Nithya's Family</Typography>
-            </div>
-            <div style={styles.imageContainer}>
+            </Grid>
+            <Grid item xs={12} md={6} style={styles.imageContainer}>
                 <img src={NithyasFam} style={styles.imageStyle} />
-            </div>
+            </Grid>
 
 
-            <div style={{ marginTop: "30px" }}>
+            <Grid item xs={12} style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">Abhi's Family</Typography>
-            </div>
+            </Grid>
 
-            <div style={styles.imageContainer}>
+            <Grid item xs={12} md={6} style={styles.imageContainer}>
                 <img src={AbhisFam} style={styles.imageStyle} />
-            </div>
+            </Grid>
 
-        </div>
+        </Grid>
     )
 }

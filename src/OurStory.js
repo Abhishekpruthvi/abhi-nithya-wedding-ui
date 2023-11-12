@@ -1,13 +1,18 @@
 import React from 'react';
-import { Typography, Button } from '@mui/material';
+import { Typography, Grid } from '@mui/material';
 import "@fontsource/great-vibes";
 import '@fontsource/courgette';
 import underlineHeart from './images/underlineHeart.png'
 import './TextStyling.css'
 // import sbg1 from './images/Us/bg1.jpg'
 // import sbg3 from './images/Us/bg3.jpg'
-// import sbg4 from './images/Us/bg4.jpg'
-// import sbg5 from './images/Us/bg5.jpg'
+import sbg4 from './images/Us/bg4.jpg'
+import sbg5 from './images/Us/bg5.jpg'
+import mbg1 from './images/Us/mbg1.jpg'
+import mbg2 from './images/Us/mbg2.jpg'
+import mbg3 from './images/Us/mbg3.jpg'
+import mbg4 from './images/Us/mbg4.jpg'
+
 // import HowItStarted from './images/Us/HowItStarted.jpg'
 // import FCFD from './images/Us/FCFD.jpg'
 // import FirstDate from './images/Us/FirstDate.jpg'
@@ -26,13 +31,14 @@ export default function OurStory() {
             marginTop: '10px',
             position: 'absolute',
             width: '100%',
+            height: '100%',
             objectFit: 'cover',
             opacity: 0.3, // Adjust the opacity as needed
         },
     }
     return (
-        <div style={{ marginTop: "50px" }}>
-            <div>
+        <Grid container justifyContent="center" alignItems="flex-start" style={{ marginTop: "50px" }}>
+            <Grid item xs={12}>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
@@ -44,11 +50,15 @@ export default function OurStory() {
                     margin: '0 auto',
                     marginTop: "-40px"
                 }} />
-            </div>
-            <div style={{ marginTop: "30px" }}>
+            </Grid>
+            <Grid item xs={12}>
+                <img src={sbg4} style={styles.imageStyle} />
+            </Grid>
+            
+            <Grid item xs={12} style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">How it started</Typography>
-            </div>
-            <div className="text-styling">
+            </Grid>
+            <Grid item xs={12} md={8} className="text-styling">
                 <Typography lineHeight="30px" style={styles.mainFontStyle} >
 
                     Like every other family, Both our families were looking for a match for each of us ,
@@ -67,35 +77,42 @@ export default function OurStory() {
                     Abhishek’s number and told I would have to talk with him in the evening
                     which made me super nervous as an introvert 😂
                     </Typography>
-            </div>
+            </Grid>
 
-            <div style={{ marginTop: "30px" }}>
+            <Grid item xs={12} style={{ marginTop: "30px" }}>
 
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Chat</Typography>
-            </div>
-            <div className="text-styling">
+            </Grid>
+            <Grid item xs={12} md={8} className="text-styling">
 
                 <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Tuesday, 7th March 2023 <br />
-                    I waited for a message from him but there wasn’t any! Finally I gathered the courage n texted him a Hi, which then went on till 3am in the night in our very first chat😂
+                    I waited for a message from him but there wasn’t any! Finally I gathered the courage and texted him a Hi, which then went on till 3am in the night in our very first chat😂
 
                 </Typography>
-            </div>
+            </Grid>
 
-            <div style={{ marginTop: "30px" }}>
+            <Grid item xs={12}>
+                <img src={mbg4} style={styles.imageStyle} />
+            </Grid>
+
+            <Grid item xs={12} style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Call</Typography>
-            </div>
-            <div className="text-styling">
+            </Grid>
+
+            <Grid item xs={12} md={8} className="text-styling">
                 <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Thursday, 9th March 2023 <br />
                     It was just funny and awkward in the beginning but turned out to be interesting 🤭
                 </Typography>
-            </div>
+            </Grid>
 
-            <div style={{ marginTop: "30px" }}>
+            <Grid item xs={12} style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Date</Typography>
-            </div>
-            <div className="text-styling">
+            </Grid>
+
+        
+            <Grid item xs={12} md={8} className="text-styling">
                 <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Sunday, 19th March 2023 <br />
                     Mysore <br />
@@ -120,11 +137,17 @@ export default function OurStory() {
                     <br />
                     I took it as a sign 🤭 after walks and talks we went to Ivaana resort for lunch and I was literally so happy that I didn’t even notice it was already evening 😂 literally felt still wanted to spend more time together and that’s when it hit me, he was what I was looking for 🤭
                 </Typography>
-            </div>
-            <div style={{ marginTop: "30px" }}>
+            </Grid>
+
+            <Grid item xs={12}>
+                <img src={mbg3} style={styles.imageStyle} />
+            </Grid>
+
+            <Grid item xs={12} style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Rose</Typography>
-            </div>
-            <div className="text-styling">
+            </Grid>
+        
+            <Grid item xs={12} md={8} className="text-styling">
                 <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Saturday, 8th April 2023 <br />
                     Mysore <br />
@@ -138,7 +161,7 @@ export default function OurStory() {
                     As we had to start early, I woke up Arround 4 in the morning and was getting ready at 4:30 in the morning when Abhishek called asked me come out 😂 I was so excited but also scared as mom n dad were awake too😂 as I went down stairs and stepped out of the door he came in the car so dropped off roses and chocolates in a second and said bye in a jiffy 😂
                     it was like a dream come true for me🤭 and the efforts he put in the late night just to meet me made me so happy and i was on cloud 9 literally 😂
                 </Typography>
-            </div>
-        </div>
+            </Grid>
+        </Grid>
     )
 }

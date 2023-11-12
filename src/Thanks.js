@@ -1,5 +1,5 @@
 import React from 'react';
-import { Typography, Button } from '@mui/material';
+import { Typography, Grid } from '@mui/material';
 import underlineHeart from './images/underlineHeart.png'
 import '@fontsource/courgette';
 
@@ -15,8 +15,8 @@ const styles = {
 
 export default function Thanks() {
     return (
-        <div>
-            <div>
+        <Grid container justifyContent="center">
+            <Grid item xs={12}>
                 <img src={underlineHeart} style={{
                     display: 'block',
                     margin: '0 auto',
@@ -28,12 +28,12 @@ export default function Thanks() {
                     margin: '0 auto',
                     marginTop: "-40px"
                 }} />
-            </div>
-            <div className="text-styling">
+            </Grid>
+            <Grid item className="text-styling">
                 <Typography lineHeight="30px" style={styles.mainFontStyle}>
                     Thanks for visiting our site! , See you at our wedding
                 </Typography>
-            </div>
-        </div>
+            </Grid>
+        </Grid>
     )
 }

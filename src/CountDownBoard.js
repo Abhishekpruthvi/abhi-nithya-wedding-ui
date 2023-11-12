@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from 'react';
 import { format, parseISO, differenceInSeconds } from 'date-fns';
 import './CountDownBoard.css';
-import { Typography } from '@mui/material';
+import { Typography, Grid } from '@mui/material';
 import "@fontsource/great-vibes";
 
 function CountdownBoard({ targetDate }) {
@@ -40,28 +40,28 @@ function CountdownBoard({ targetDate }) {
         }
     }
     return (
-        <div className="countdown-board">
+        <Grid className="countdown-board">
             <Typography variant="h6" color="white">We are waiting for ...</Typography>
             <Typography variant="h3" style={styles.cursiveFontStyle} color="white">The Big Day!</Typography>
-            <div className="countdown-timer">
-                <div className="timer-element">
+            <Grid className="countdown-timer">
+                <Grid className="timer-element">
                     <Typography variant="h4" style={styles.cursiveFontStyle} color="white">{timeRemaining.days}</Typography>
                     <Typography fontSize="15px" color="white">DAYS</Typography>
-                </div>
-                <div className="timer-element">
+                </Grid>
+                <Grid className="timer-element">
                     <Typography variant="h4" style={styles.cursiveFontStyle} color="white">{timeRemaining.hours}</Typography>
                     <Typography fontSize="15px" color="white">HOURS</Typography>
-                </div>
-                <div className="timer-element">
+                </Grid>
+                <Grid className="timer-element">
                     <Typography variant="h4" style={styles.cursiveFontStyle} color="white">{timeRemaining.minutes}</Typography>
                     <Typography fontSize="15px" color="white">MINUTES</Typography>
-                </div>
-                <div className="timer-element">
+                </Grid>
+                <Grid className="timer-element">
                     <Typography variant="h4" style={styles.cursiveFontStyle} color="white">{timeRemaining.seconds}</Typography>
                     <Typography fontSize="15px" color="white">SECONDS</Typography>
-                </div>
-            </div>
-        </div>
+                </Grid>
+            </Grid>
+        </Grid>
     );
 }
 
