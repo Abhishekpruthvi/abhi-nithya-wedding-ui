@@ -4,9 +4,13 @@ import "@fontsource/great-vibes";
 import '@fontsource/courgette';
 import underlineHeart from './images/underlineHeart.png'
 import './TextStyling.css'
-import HowItStarted from './images/Us/HowItStarted.jpg'
-import FCFD from './images/Us/FCFD.jpg'
-import FirstDate from './images/Us/FirstDate.jpg'
+// import sbg1 from './images/Us/bg1.jpg'
+// import sbg3 from './images/Us/bg3.jpg'
+// import sbg4 from './images/Us/bg4.jpg'
+// import sbg5 from './images/Us/bg5.jpg'
+// import HowItStarted from './images/Us/HowItStarted.jpg'
+// import FCFD from './images/Us/FCFD.jpg'
+// import FirstDate from './images/Us/FirstDate.jpg'
 
 export default function OurStory() {
     const styles = {
@@ -41,9 +45,6 @@ export default function OurStory() {
                     marginTop: "-40px"
                 }} />
             </div>
-
-            <img src={HowItStarted} style={styles.imageStyle} />
-
             <div style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">How it started</Typography>
             </div>
@@ -68,7 +69,6 @@ export default function OurStory() {
                     </Typography>
             </div>
 
-            <img src={FCFD} style={styles.imageStyle} />
             <div style={{ marginTop: "30px" }}>
 
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Chat</Typography>
@@ -121,7 +121,6 @@ export default function OurStory() {
                     I took it as a sign 🤭 after walks and talks we went to Ivaana resort for lunch and I was literally so happy that I didn’t even notice it was already evening 😂 literally felt still wanted to spend more time together and that’s when it hit me, he was what I was looking for 🤭
                 </Typography>
             </div>
-
             <div style={{ marginTop: "30px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67">First Rose</Typography>
             </div>

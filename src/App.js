@@ -20,6 +20,10 @@ import GroomSquad from './GroomSquad'
 import Thanks from './Thanks'
 import MeetOurFamily from './MeetOurFamily'
 import PreWeddingStudioFull from './PreWeddingStudioFull'
+// import sbg1 from './images/Us/bg1.jpg'
+// import sbg3 from './images/Us/bg3.jpg'
+// import sbg4 from './images/Us/bg4.jpg'
+// import sbg5 from './images/Us/bg5.jpg'
 
 function App() {
   const styles = {
@@ -40,6 +44,15 @@ function App() {
 
     cursiveFontStyle: {
       fontFamily: 'Great Vibes,cursive',
+    },
+    imageStyle: {
+      display: 'block',
+      margin: '0 auto',
+      marginTop: '-5%',
+      position: 'absolute',
+      width: '100%',
+      objectFit: 'cover',
+      opacity: 0.35, // Adjust the opacity as needed
     }
   };
 
@@ -75,6 +88,7 @@ function App() {
       <div>
         <CountdownBoard targetDate={targetDate} />
       </div>
+
       <HappyCouple />
       <EngagementTeaser />
       <MeetOurFamily />
@@ -86,6 +100,7 @@ function App() {
       <BrideSquad />
       <GroomSquad />
       <Thanks />
+
     </div>
   );
 }
