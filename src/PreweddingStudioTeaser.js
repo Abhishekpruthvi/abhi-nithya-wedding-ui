@@ -70,7 +70,7 @@ export default function PreWeddingStudioTeaser() {
                 }} />
             </Grid>
 
-            <video width="100%" ref={videoRef} controls >
+            <video width="100%" ref={videoRef} preload="auto" controls >
                 <source src={PreweddingStudioTeaser} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

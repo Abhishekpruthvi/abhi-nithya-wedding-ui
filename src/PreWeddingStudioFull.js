@@ -70,7 +70,7 @@ export default function PreWeddingStudioFull() {
                 }} />
             </Grid>
 
-            <video width="100%" ref={videoRef} controls >
+            <video width="100%" ref={videoRef} preload="auto" controls >
                 <source src={PreweddingStudioFull} type="video/mp4" />
           Your browser does not support the video tag.
         </video>

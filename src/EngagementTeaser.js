@@ -78,7 +78,7 @@ export default function EngagementTeaser() {
                 }} />
             </Grid>
 
-            <video width="100%" ref={videoRef} controls>
+            <video width="100%" ref={videoRef} preload="auto" controls>
                 <source src={ANEngagementTeaser} type="video/mp4" />
           Your browser does not support the video tag.
         </video>
