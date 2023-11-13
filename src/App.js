@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import React, { useEffect, useRef, useState } from 'react'
 // import ANBg from './images/ANbg.jpeg'
 import ANBg from './images/ANMagnum.jpg'
 import heartTemplate from './images/hearttemplate.png'
@@ -57,6 +57,8 @@ function App() {
   };
 
   const targetDate = '2023-12-01T10:00:00+05:30';
+
+  
 
   return (
     <Grid container className="app-container">
