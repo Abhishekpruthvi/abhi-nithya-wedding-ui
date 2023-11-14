@@ -1,0 +1,32 @@
+/* src/components/ImageSlideshow.css */
+.image-slideshow {
+    max-width: 800px; /* Adjust the max-width as needed */
+    margin: auto;
+  }
+  
+  .slideshow-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add box-shadow for a subtle lift effect */
+  }
+  
+  /* Customize slick dots styles */
+  .slick-dots {
+    bottom: 20px; /* Adjust the position from the bottom */
+  }
+  
+  .slick-dots li button:before {
+    font-size: 10px; /* Adjust the dot size */
+    color: #fff; /* Dot color when inactive */
+  }
+  
+  .slick-dots li.slick-active button:before {
+    color: #000; /* Dot color when active */
+  }
+  
+  /* Optional: Add transition for a smoother effect */
+  .slick-slide {
+    transition: transform 0.5s ease-in-out;
+  }
+  

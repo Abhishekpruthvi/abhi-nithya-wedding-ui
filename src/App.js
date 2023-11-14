@@ -20,6 +20,8 @@ import GroomSquad from './GroomSquad'
 import Thanks from './Thanks'
 import MeetOurFamily from './MeetOurFamily'
 import PreWeddingStudioFull from './PreWeddingStudioFull'
+import OurGallery from './OurGallery';
+import ToofanCountDownBoard from './ToofanCountDownBoard'
 // import sbg1 from './images/Us/bg1.jpg'
 // import sbg3 from './images/Us/bg3.jpg'
 // import sbg4 from './images/Us/bg4.jpg'
@@ -87,6 +89,7 @@ function App() {
         </Grid>
       </Grid>
       <Grid container>
+        <ToofanCountDownBoard  targetDate={"2023-11-26T18:00:00+05:30"}/>
         <Welcome />
         <CountdownBoard targetDate={targetDate} />
         <HappyCouple />
@@ -97,6 +100,7 @@ function App() {
         <PreweddingTeaser />
         <OurStory />
         <PreWeddingStudioFull />
+        <OurGallery />
         <BrideSquad />
         <GroomSquad />
         <Thanks />
