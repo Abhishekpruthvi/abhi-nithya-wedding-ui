@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/abhi-nithya-wedding-ui/static/css/main.7520657f.css",
-    "main.js": "/abhi-nithya-wedding-ui/static/js/main.af505a7d.js",
+    "main.js": "/abhi-nithya-wedding-ui/static/js/main.2c11ee94.js",
     "static/js/787.f7e2e9d2.chunk.js": "/abhi-nithya-wedding-ui/static/js/787.f7e2e9d2.chunk.js",
     "static/media/PreWeddingStudioFull.mp4": "/abhi-nithya-wedding-ui/static/media/PreWeddingStudioFull.2df04f8323d6dab58600.mp4",
     "static/media/PreweddingStudioTeaser.mp4": "/abhi-nithya-wedding-ui/static/media/PreweddingStudioTeaser.e11c1dac286fb0b139a7.mp4",
@@ -42,6 +42,7 @@
     "static/media/bg5.jpg": "/abhi-nithya-wedding-ui/static/media/bg5.f8413b9a9b3fdae6f936.jpg",
     "static/media/Sam.jpeg": "/abhi-nithya-wedding-ui/static/media/Sam.2b69ccdc88f0902a13ea.jpeg",
     "static/media/ANMagnum.jpg": "/abhi-nithya-wedding-ui/static/media/ANMagnum.c322120cfee23041dbdb.jpg",
+    "static/media/Abhigna.jpeg": "/abhi-nithya-wedding-ui/static/media/Abhigna.3a7c9285eb3a11cffe16.jpeg",
     "static/media/Kushal.PNG": "/abhi-nithya-wedding-ui/static/media/Kushal.1bf06fee7eab08e6f029.PNG",
     "static/media/mbg3.jpg": "/abhi-nithya-wedding-ui/static/media/mbg3.3e03d44fe19ee50c8e39.jpg",
     "static/media/mbg1.jpg": "/abhi-nithya-wedding-ui/static/media/mbg1.e8e16c00c59e2e0b4455.jpg",
@@ -86,11 +87,11 @@
     "static/media/slick.woff": "/abhi-nithya-wedding-ui/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/abhi-nithya-wedding-ui/index.html",
     "main.7520657f.css.map": "/abhi-nithya-wedding-ui/static/css/main.7520657f.css.map",
-    "main.af505a7d.js.map": "/abhi-nithya-wedding-ui/static/js/main.af505a7d.js.map",
+    "main.2c11ee94.js.map": "/abhi-nithya-wedding-ui/static/js/main.2c11ee94.js.map",
     "787.f7e2e9d2.chunk.js.map": "/abhi-nithya-wedding-ui/static/js/787.f7e2e9d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7520657f.css",
-    "static/js/main.af505a7d.js"
+    "static/js/main.2c11ee94.js"
   ]
 }
