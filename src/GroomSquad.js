@@ -3,6 +3,7 @@ import { Typography, Button, Grid } from '@mui/material';
 import underlineHeart from './images/underlineHeart.png'
 import './squad.css'
 import AbhiSingle from './images/AbhiSingle.JPG'
+import Abhigna from './images/GroomBoys/Abhigna.jpeg'
 import Harshith from './images/GroomBoys/Harshith.JPG'
 import Kushal from './images/GroomBoys/Kushal.PNG'
 import Madhu from './images/GroomBoys/Madhu.JPG'
@@ -124,6 +125,16 @@ export default function GroomSquad() {
                 </Grid>
             </Grid>
 
+            <Grid item className="couple-container">
+                <Grid className="profile-container">
+                    <Grid className="profile">
+                        <img className="circle-image" src={Abhigna} alt="Bride" />
+                        <Typography style={styles.mainFontStyle} marginLeft="50px">
+                            Abhigna
+                        </Typography>
+                    </Grid>
+                </Grid>
+            </Grid>
 
             <Grid item xs={12} style={{ marginTop: "50px" }}>
                 <Typography variant="h4" align="center" style={styles.cursiveFontStyle} color="#1e7b67"> Girls Squad </Typography>
