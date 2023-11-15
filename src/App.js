@@ -1,5 +1,4 @@
 import React, { useEffect, useRef, useState } from 'react'
-// import ANBg from './images/ANbg.jpeg'
 import ANBg from './images/ANMagnum.jpg'
 import heartTemplate from './images/hearttemplate.png'
 import './App.css';
