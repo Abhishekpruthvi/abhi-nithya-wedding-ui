@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/abhi-nithya-wedding-ui/static/css/main.7520657f.css",
-    "main.js": "/abhi-nithya-wedding-ui/static/js/main.2c11ee94.js",
+    "main.js": "/abhi-nithya-wedding-ui/static/js/main.b8d43f99.js",
     "static/js/787.f7e2e9d2.chunk.js": "/abhi-nithya-wedding-ui/static/js/787.f7e2e9d2.chunk.js",
     "static/media/PreWeddingStudioFull.mp4": "/abhi-nithya-wedding-ui/static/media/PreWeddingStudioFull.2df04f8323d6dab58600.mp4",
     "static/media/PreweddingStudioTeaser.mp4": "/abhi-nithya-wedding-ui/static/media/PreweddingStudioTeaser.e11c1dac286fb0b139a7.mp4",
@@ -38,7 +38,7 @@
     "static/media/bg1.jpg": "/abhi-nithya-wedding-ui/static/media/bg1.1660c523889c851fec73.jpg",
     "static/media/Shrinidhi.PNG": "/abhi-nithya-wedding-ui/static/media/Shrinidhi.ab7cd1ccb0e83c019334.PNG",
     "static/media/Sahithya.PNG": "/abhi-nithya-wedding-ui/static/media/Sahithya.c96d55ddb15bcb29c7eb.PNG",
-    "static/media/Jagath.jpg": "/abhi-nithya-wedding-ui/static/media/Jagath.adb3b20d3a0f84788d8d.jpg",
+    "static/media/Jagruth.jpg": "/abhi-nithya-wedding-ui/static/media/Jagruth.adb3b20d3a0f84788d8d.jpg",
     "static/media/bg5.jpg": "/abhi-nithya-wedding-ui/static/media/bg5.f8413b9a9b3fdae6f936.jpg",
     "static/media/Sam.jpeg": "/abhi-nithya-wedding-ui/static/media/Sam.2b69ccdc88f0902a13ea.jpeg",
     "static/media/ANMagnum.jpg": "/abhi-nithya-wedding-ui/static/media/ANMagnum.c322120cfee23041dbdb.jpg",
@@ -87,11 +87,11 @@
     "static/media/slick.woff": "/abhi-nithya-wedding-ui/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/abhi-nithya-wedding-ui/index.html",
     "main.7520657f.css.map": "/abhi-nithya-wedding-ui/static/css/main.7520657f.css.map",
-    "main.2c11ee94.js.map": "/abhi-nithya-wedding-ui/static/js/main.2c11ee94.js.map",
+    "main.b8d43f99.js.map": "/abhi-nithya-wedding-ui/static/js/main.b8d43f99.js.map",
     "787.f7e2e9d2.chunk.js.map": "/abhi-nithya-wedding-ui/static/js/787.f7e2e9d2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7520657f.css",
-    "static/js/main.2c11ee94.js"
+    "static/js/main.b8d43f99.js"
   ]
 }
