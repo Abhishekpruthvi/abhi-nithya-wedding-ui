@@ -5,7 +5,7 @@ import NithyaSingle from './images/NithyaSingle.JPG'
 import Navya from './images/BrideSisters/Navya.JPG'
 import Keerthana from './images/BrideSisters/keeru.jpg'
 import Thanu from './images/BrideSisters/tanu.jpg'
-import Jagath from './images/BrideBrothers/Jagath.jpg'
+import Jagruth from './images/BrideBrothers/Jagruth.jpg'
 import Jayanth from './images/BrideBrothers/jay.JPG'
 import Likith from './images/BrideBrothers/liki.JPG'
 import Nishanth from './images/BrideBrothers/Nishanth.JPG'
@@ -91,9 +91,9 @@ export default function BrideSquad() {
             <Grid item className="couple-container">
                 <Grid className="profile-container">
                     <Grid className="profile">
-                        <img className="circle-image" src={Jagath} alt="Bride Sister" />
+                        <img className="circle-image" src={Jagruth} alt="Bride Sister" />
                         <Typography style={styles.mainFontStyle}>
-                            Jagath
+                            Jagruth
                         </Typography>
                     </Grid>
                     <Grid className="profile">
